@@ -14,20 +14,20 @@ Sao chép dự án từ repository:
 ```bash
 git clone <link_repository>
 cd project-directory
-Bước 2: Cài đặt các dependencies
+## Bước 2: Cài đặt các dependencies
 Sử dụng npm để cài đặt các dependencies cần thiết:
 
 bash
 Copy code
 npm install
-Bước 3: Thiết lập biến môi trường
+## Bước 3: Thiết lập biến môi trường
 Tạo một file .env và thiết lập các biến môi trường như cổng server, chuỗi kết nối database (nếu có) và các thông tin cần thiết khác.
 
 plaintext
 Copy code
 PORT=3000
 DB_CONNECTION_STRING=your_db_connection_string
-Bước 4: Chạy ứng dụng
+## Bước 4: Chạy ứng dụng
 bash
 Copy code
 npm start
